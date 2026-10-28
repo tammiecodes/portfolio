@@ -1,15 +1,17 @@
 :root {
-  --ink: #263238;
-  --muted: #66746f;
-  --cream: #fbfaf4;
+  --ink: #3a3034;
+  --muted: #75656a;
+  --cream: #fffaf9;
   --white: #ffffff;
   --mint: #cfe4d6;
   --mint-dark: #91b7a0;
-  --lilac: #ddd4ea;
-  --peach: #f0d2c3;
+  --lilac: #eadde7;
+  --peach: #f1d3d2;
+  --pink: #e8b8c5;
+  --pink-dark: #a95d73;
   --yellow: #efe8b7;
-  --line: #dfe4df;
-  --accent: #315f50;
+  --line: #eadde1;
+  --accent: #9b5268;
   --max-width: 1120px;
 }
 
@@ -192,6 +194,23 @@ a {
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 34px;
+}
+
+.hero-meta {
+  margin: 28px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.hero-meta strong {
+  color: var(--ink);
+}
+
+.hero-skills {
+  margin: 8px 0 0;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
 }
 
 .button {
