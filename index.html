@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio for [Your Name], showcasing experience, projects, and contact information.">
+  <title>[Your Name] | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Back to top">YN<span>.</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="nav-cta" href="#contact">Get in touch</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero container" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span aria-hidden="true"></span> Hello, welcome to my portfolio</p>
+        <h1 id="hero-title">Hi, my name is<br><strong>[Your Name]</strong></h1>
+        <p class="hero-intro">I am a <span>[your role]</span> creating thoughtful, accessible experiences that turn complex ideas into clear, useful work.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View my work</a>
+          <a class="button button-secondary" href="#experience">About me</a>
+        </div>
+      </div>
+
+      <div class="portrait" role="img" aria-label="Placeholder profile portrait">
+        <div class="portrait-frame">
+          <span class="initials" aria-hidden="true">YN</span>
+          <span class="portrait-label" aria-hidden="true">Your photo</span>
+        </div>
+        <span class="spark spark-one" aria-hidden="true"></span>
+        <span class="spark spark-two" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section class="section container" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <p class="section-kicker">01 / Background</p>
+        <h2 id="experience-title">Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <p>[Start Year] - [End Year]</p>
+          </div>
+          <div class="timeline-content">
+            <h3>[Role Title]</h3>
+            <p class="timeline-company">[Company or Organization]</p>
+            <p>Add a short description of your responsibilities, impact, and the skills you used in this role.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <p>[Start Year] - [End Year]</p>
+          </div>
+          <div class="timeline-content">
+            <h3>[Role Title]</h3>
+            <p class="timeline-company">[Company or Organization]</p>
+            <p>Add another role, project, volunteer position, or educational experience here.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">02 / Selected work</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-preview project-preview-one" aria-label="Placeholder visual for Project One">
+              <span>01</span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">[Project type]</p>
+              <h3>[Project Name]</h3>
+              <p>Write a brief overview of the problem, your approach, and the outcome.</p>
+              <a class="text-link" href="#" aria-label="View Project Name case study">View project <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview project-preview-two" aria-label="Placeholder visual for Project Two">
+              <span>02</span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">[Project type]</p>
+              <h3>[Project Name]</h3>
+              <p>Write a brief overview of the problem, your approach, and the outcome.</p>
+              <a class="text-link" href="#" aria-label="View Project Name case study">View project <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section container" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy">
+        <p class="section-kicker">03 / Contact</p>
+        <h2 id="contact-title">Let's work together.</h2>
+        <p>Have an opportunity, an idea, or just want to say hello? I would love to hear from you.</p>
+      </div>
+      <a class="button button-primary" href="mailto:hello@example.com">hello@example.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> [Your Name]</p>
+      <div class="social-links" aria-label="Social links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
